@@ -1,14 +1,134 @@
-.jollie-header {
-	color: red;
-	width: 100%;
-	height: 500px;
-	background-image:"DSC_1080.jpg"
+/*ul.drop-menu li {
+  background: #666;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-#brand-title {
-	position: relative;
-	margin: auto center;
-	font-size: 100%;
-	left:42%;
-	top:45%;
+ul.drop-menu li:hover {
+  background: #606060;
 }
+ul.drop-menu li:last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+
+ul.drop-menu li	{
+	display: none; /* Hide*/
+/*	
+}
+li:hover >ul.dropmenu li {
+	display: block; /*Show*/
+/*	opacity: 0
+@keyframes
+}*/
+
+/* ------- Common Elements ------- */
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	background-size: 100% 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	top:0px;
+	font-size: 67.5%;
+
+
+}
+
+h1	{
+	color: orange;
+
+
+}
+/* ------- Header ---------------- */
+header {
+	padding:0em 0 0em;
+	height: 15%; 
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	background:;
+	width: 100%;
+	display: block;
+}
+
+/*Navigation Menu*/
+
+#utilityMenu {
+	float: left;
+	padding: 0.5em;
+	background-color: grey;
+	top: 0px;
+	left:0px;
+	display: block;
+	position: ;
+}
+
+nav li {
+	display:inline-block;
+}
+
+ol{
+	font-size: 1.2em;
+	margin: 0 0 0 1.0em;
+	padding: 0 0 0 1.0em;
+	display: inline-block;
+}
+
+ol li{
+	margin: 0;
+	padding: 0 0 0.2em;
+}
+
+a, a:visited {
+	color: #C64322;
+}
+
+a:hover {
+	color: #333;
+}
+
+hr {
+	padding: 0;
+	margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+
+/* ------- Nav Bars -------------- */
+
+
+
+/* ------- Sidebar Section ------- */
+
+
+
+/* ------- Main Section ---------- */
+
+.main{
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-template-rows: 1fr;
+	padding: 1%;
+	height:200px;
+
+
+}
+
+.main section:nth-child(even) {
+	background: red;
+}
+
+.main section:nth-child(odd) {
+	background: yellow;
+}
+
+div{
+	width: 500px;
+}
+/* ------- Footer ---------------- */
+
